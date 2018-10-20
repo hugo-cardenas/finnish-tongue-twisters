@@ -1,0 +1,26 @@
+.container {
+  max-width: 600px;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+p#emoji {
+  font-size: 30px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+.content {
+  /* height: 320px; */
+}
