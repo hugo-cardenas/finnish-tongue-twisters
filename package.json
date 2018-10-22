@@ -6,7 +6,7 @@
   "scripts": {
     "build": "./node_modules/.bin/babel src --out-dir dist --copy-files",
     "start": "./node_modules/browser-sync/dist/bin.js start --server src --watch",
-    "deploy": "now --static --public dist",
+    "deploy": "now --name finnish-tongue-twisters --static --public dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hugo",

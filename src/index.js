@@ -59,7 +59,7 @@ window.onload = () => {
     soundButton.onclick = () => {
       speechSynthesis.cancel();
       var phrase = document.getElementById('finnish').innerHTML;
-      utterance = new SpeechSynthesisUtterance(phrase);
+      const utterance = new SpeechSynthesisUtterance(phrase);
       utterance.lang = 'fi-FI';
       speechSynthesis.speak(utterance);
     };
