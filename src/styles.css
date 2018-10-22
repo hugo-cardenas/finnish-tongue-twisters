@@ -30,6 +30,11 @@ p {
   cursor: pointer;
 }
 
+.icon.disabled {
+  color: lightgray;
+  cursor: auto
+}
+
 .signature {
   position: absolute;
   bottom: 20px;

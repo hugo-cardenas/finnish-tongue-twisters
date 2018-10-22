@@ -4,9 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "./node_modules/.bin/babel src --out-dir dist --copy-files",
+    "start": "./node_modules/browser-sync/dist/bin.js start --server src --watch",
+    "deploy": "now --static --public dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hugo",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "browser-sync": "^2.26.3"
+  }
 }
