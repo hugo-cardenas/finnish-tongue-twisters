@@ -58,10 +58,5 @@ const phrases = [
     finnish: 'Hiljaa Hilja sanoi Hiljalle hiljaa niin hiljaa ettei Hilja kuullut miten hiljaa Hilja sanoi Hiljalle hiljaa',
     emoji: '🤫',
     english: 'Quiet Hilja said to Hilja to be quiet, so quietly that Hilja couldn\'t hear how Quiet Hiljaa said to Hilja to be quiet'
-  },
-  // {
-  //   finnish: '',
-  //   emoji: '',
-  //   english: ''
-  // },
+  }
 ];
